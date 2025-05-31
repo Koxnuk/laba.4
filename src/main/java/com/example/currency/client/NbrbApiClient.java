@@ -66,7 +66,6 @@ public class NbrbApiClient {
     }
 }
 
-// Custom exception to handle 404 errors
 class CurrencyNotFoundException extends RuntimeException {
     public CurrencyNotFoundException(String message, Throwable cause) {
         super(message, cause);
